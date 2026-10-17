@@ -1,4 +1,3 @@
-```yaml
 name: Docker Commands Build and Publish
 
 "on":
@@ -33,4 +32,4 @@ jobs:
         env:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
         run: docker push "${DOCKERHUB_USERNAME}/bse_08_commands:latest"
-```
+ 
