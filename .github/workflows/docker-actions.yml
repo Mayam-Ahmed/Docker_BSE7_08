@@ -1,7 +1,7 @@
 ```yaml
 name: Docker Actions Build and Publish
 
-on:
+"on":
   push:
     branches:
       - main
